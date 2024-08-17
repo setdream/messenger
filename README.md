@@ -1,4 +1,4 @@
-# Chat app
+# Chat app (migrated from an old repository, developed around 2020)
 
 Training(no frameworks) chat app based on my design
 
