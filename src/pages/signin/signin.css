@@ -1,0 +1,34 @@
+@import '../../layout/main/main.css';
+@import '../../modules/auth/auth.css';
+@import '../../modules/form/form.css';
+
+.signin-page {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    background: var(--primary-color);
+
+    &__welcome {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 33%;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        background: var(--main-bg-color);
+        border-top-left-radius: 24px;
+        border-top-right-radius: 24px;
+        padding: 64px 32px 32px;
+        flex-grow: 1;
+    }
+
+    &__bottom {
+        display: flex;
+        justify-content: center;
+        background: var(--main-bg-color);
+    }
+}

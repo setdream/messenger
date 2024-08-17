@@ -1,0 +1,27 @@
+@import '../../layout/main/main.css';
+
+.profile-page {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    background: var(--primary-color);
+
+    &__header {
+        min-height: 33%;
+        margin-bottom: 48px;
+    }
+
+    &__info {
+        display: flex;
+        justify-content: center;
+        background: var(--main-bg-color);
+        border-top-left-radius: 24px;
+        border-top-right-radius: 24px;
+        flex-grow: 1;
+
+        .user-info {
+            margin-top: -100px;
+        }
+    }
+}

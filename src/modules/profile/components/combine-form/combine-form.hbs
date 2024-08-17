@@ -1,0 +1,16 @@
+<section class="combine-form">
+    <div class="combine-form__steps">
+        {{#each progress}}
+            {{#if this}}
+                <div class="combine-form-step combine-form-step--completed"></div>
+            {{else}}
+                <div class="combine-form-step"></div>
+            {{/if}}
+        {{/each}}
+    </div>
+    <div class="combine-form__forms">
+        {{#each forms}}
+            {{{this}}}
+        {{/each}}
+    </div>
+</section>

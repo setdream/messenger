@@ -1,0 +1,32 @@
+.search-field {
+    display: flex;
+    background: var(--form-bg-color);
+    border: 0.5px solid var(--form-border-color);
+    border-radius: 8px;
+
+    &__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 16px;
+    }
+
+    &__text {
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        color: var(--main-text-color);
+        padding: 16px;
+        border: none;
+        outline: none;
+        flex-grow: 1;
+    }
+}
+
+.icon-search {
+    background-size: 16px 16px;
+    width: 16px;
+    height: 16px;
+    background-image: url('./icons/search-icon.svg');
+}

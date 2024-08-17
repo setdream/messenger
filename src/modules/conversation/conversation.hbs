@@ -1,0 +1,8 @@
+<section class="conversation">
+    {{#if hasLoadMoreButton}}
+        <div data-role-load-more class="load-more-button">Load More</div>
+    {{/if}}
+    {{#each messages}}
+        {{{ this }}}
+    {{/each}}
+</section>

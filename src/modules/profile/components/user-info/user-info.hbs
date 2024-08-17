@@ -1,0 +1,17 @@
+<div class="user-info">
+    <input hidden data-role-avatar-upload-field type="file">
+    <div class="user-info__avatar">
+        {{#if image}}
+            <img class="image-avatar" src="{{image}}" />
+        {{else}}
+            <i class="icon-add-photo"></i>
+        {{/if}}
+    </div>
+    <div class="user-info__fields">
+        {{{first_name}}}
+        {{{second_name}}}
+        {{{display_name}}}
+        {{{email}}}
+        {{{phone}}}
+    </div>
+</div>

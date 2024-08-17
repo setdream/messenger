@@ -1,0 +1,23 @@
+<article data-role-chat-id="{{chatId}}" class="chat">
+    <div class="chat__avatar">
+        {{#if avatar}}
+            <img class="avatar avatar--medium" src="{{avatar}}" alt="{{name}}">
+        {{else}}
+            <div class="chat-avatar-replacer">{{shortName}}</div>
+        {{/if}}
+    </div>
+    <div class="chat__content">
+        <h2 class="chat-title">{{name}}</h2>
+        {{#if unreadMessages}}
+            <p class="chat-short-message chat-short-message--unread">{{short}}</p>
+        {{else}}
+            <p class="chat-short-message chat-short-message--read">{{short}}</p>
+        {{/if}}
+    </div>
+    <div class="chat__info">
+        <span class="chat-time">{{time}}</span>
+        {{#if unreadMessages}}
+            <span class="chat-unread-message-count">{{unreadMessages}}</span>
+        {{/if}}
+    </div>
+</article>

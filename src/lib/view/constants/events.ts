@@ -1,0 +1,9 @@
+export const EVENT_COMPONENT_DID_MOUNT = 'component-did-mount';
+export const EVENT_COMPONENT_WILL_RENDER = 'component-will-render';
+export const EVENT_COMPONENT_DID_RENDER = 'component-did-render';
+export const EVENT_COMPONENT_DID_UPDATE = 'component-did-update';
+export const EVENT_COMPONENT_INIT = 'component-init';
+export const EVENT_COMPONENT_RENDER = 'component-render';
+export const EVENT_COMPONENT_CHAGE_PROP = 'component-change-prop';
+export const EVENT_COMPONENT_CHANGE_VISIBILITY = 'component-change-visibility';
+export const EVENT_COMPONENT_DESTROYED = 'component-destroyed';

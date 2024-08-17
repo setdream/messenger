@@ -1,0 +1,21 @@
+@import '../../layout/main/main.css';
+
+.search-page {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.header-container {
+    border-bottom: 1px solid rgba(52 61 43 10%);
+}
+
+.search-field-container {
+    padding: 32px 32px 0;
+}
+
+.search-result-container {
+    display: flex;
+    padding: 32px;
+}

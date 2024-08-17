@@ -1,0 +1,15 @@
+:root {
+    --main-bg-color: #f9f9f9;
+    --secondary-bg-color: #fcfcfc;
+    --main-black-color: #151614;
+    --primary-color: #a2bc86;
+    --main-gray-color: #838383;
+    --main-error-color: #fc0808;
+    --main-text-color: var(--main-black-color);
+    --main-text-light-color: var(--main-bg-color);
+    --main-text-light-secondary-color: var(--secondary-bg-color);
+    --main-text-gray-color: var(--main-gray-color);
+    --form-bg-color: var(--secondary-bg-color);
+    --form-border-color: var(--main-gray-color);
+    --alert-shadow-color: #e5e5e5;
+}

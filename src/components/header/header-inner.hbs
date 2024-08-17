@@ -1,0 +1,23 @@
+<header class="app-header">
+    <nav class="app-header-navigation">
+        <ul class="navigation-list">
+            <li class="navigation-list-item">
+                <a class="back-button back-button--{{theme}}" href="{{backUrl}}">
+                    <i class="icon-back icon-back--{{theme}}"></i>
+                </a>
+            </li>
+            <li class="navigation-list-item">
+                <h1 class="app-header-title app-header-title--{{theme}}">{{title}}</h1>
+            </li>
+            <li class="navigation-list-item">
+                {{#if avatar}}
+                    <img class="avatar avatar--small" src="{{avatar}}" alt="Avatar">
+                {{else}}
+                    <div data-role-avatar class="header-avatar-replacer header-avatar-replacer--{{theme}}">
+                        <i class="icon-profile icon-profile--{{theme}}"></i>
+                    </div>
+                {{/if}}
+            </li>
+        </ul>
+    </nav>
+</header>

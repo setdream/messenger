@@ -1,0 +1,13 @@
+<article data-user-id="{{id}}" class="found-user">
+    <div class="found-user__avatar">
+        {{#if avatar}}
+            <img data-role-found-user-avatar class="avatar avatar--medium" src="{{avatar}}" alt="{{first_name}} {{second_name}}">
+        {{else}}
+            <div class="found-user-avatar-replacer">{{initials}}</div>
+        {{/if}}
+    </div>
+    <div class="found-user__content">
+        <h2 class="found-user-title">{{first_name}} {{second_name}}</h2>
+        <p class="found-user-short-message">{{login}}</p>
+    </div>
+</article>

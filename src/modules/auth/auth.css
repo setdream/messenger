@@ -1,0 +1,14 @@
+.auth-reference-block {
+    padding: 16px 0;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--main-text-color);
+
+    &__link {
+        color: var(--primary-color);
+        font-weight: 600;
+    }
+}

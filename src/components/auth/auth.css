@@ -1,0 +1,26 @@
+.auth-form {
+    &__fieldset {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__legend {
+        text-align: center;
+        margin-bottom: 32px;
+    }
+
+    &__item {
+        margin-bottom: 24px;
+    }
+
+    &__submit-button {
+        align-self: flex-end;
+    }
+}
+
+.icon-arrow-right {
+    background-image: url('./assets/icons/arrow-right-icon.svg');
+    background-size: 28px 18px;
+    width: 28px;
+    height: 18px;
+}

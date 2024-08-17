@@ -1,0 +1,24 @@
+.combine-form {
+    width: 100%;
+
+    &__steps {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__forms {
+        padding: 16px 0;
+    }
+}
+
+.combine-form-step {
+    margin: 0 4px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid var(--primary-color);
+
+    &--completed {
+        background: var(--primary-color);
+    }
+}

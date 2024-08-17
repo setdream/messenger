@@ -1,0 +1,11 @@
+<section class="chats">
+    {{#if chats}}
+        <div data-role-chats-list>
+            {{#each chats}}
+                {{{ this }}}
+            {{/each}}
+        </div>
+    {{else}}
+        <div class="chats-empty-message">No chats yet</div>
+    {{/if}}
+</section>

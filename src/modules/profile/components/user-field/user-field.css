@@ -1,0 +1,39 @@
+.user-field {
+    &--has-error {
+        .user-field__field {
+            border-bottom: 2px solid var(--main-error-color);
+        }
+
+        .user-field__info {
+            color: var(--main-error-color);
+        }
+    }
+
+    &__field {
+        width: 100%;
+
+        padding: 8px 0;
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: var(--form-border-color);
+        border: none;
+        border-bottom: 2px solid var(--primary-color);
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__info {
+        margin-top: 16px;
+        font-family: Montserrat, sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: var(--form-border-color);
+    }
+}

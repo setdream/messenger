@@ -1,0 +1,21 @@
+.chats {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+.chats .chat:not(:last-child) {
+    margin-bottom: 32px;
+}
+
+.chats-empty-message {
+    display: flex;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--main-gray-color);
+    align-self: center;
+}

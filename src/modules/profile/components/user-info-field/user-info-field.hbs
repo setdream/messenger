@@ -1,0 +1,18 @@
+<article class="user-info-field">
+    <div class="user-info-field__title {{#unless value}}user-info-field__title--empty{{/unless}}">
+        {{#if hasEmphasis}}
+            {{#if value}}
+                <h2 class="user-info-title">{{value}}</h2>
+            {{else}}
+                <h2 class="user-info-title user-info-title--empty">No value</h2>
+            {{/if}}
+        {{else}}
+            {{#if value}}
+                {{value}}
+            {{else}}
+                <span class="user-info-title__empty">No value</span>
+            {{/if}}
+        {{/if}}
+    </div>
+    <a {{#if editUrl}} href="{{editUrl}}" {{/if}} class="user-info-field__edit-link">{{editTitle}}</a>
+</article>

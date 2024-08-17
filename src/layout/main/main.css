@@ -1,0 +1,15 @@
+@import 'sanitize.css';
+@import 'sanitize.css/forms.css';
+@import './variables';
+
+html,
+body,
+.app-container {
+    height: 100%;
+    width: 100%;
+    min-width: 320px;
+}
+
+[hidden] {
+    display: none !important;
+}

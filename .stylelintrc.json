@@ -1,0 +1,16 @@
+{
+    "plugins": ["stylelint-prettier"],
+    "extends": "stylelint-config-standard",
+    "rules": {
+      "string-quotes": "single",
+      "color-hex-case": "lower",
+      "indentation": 4,
+      "prettier/prettier": true,
+      "declaration-empty-line-before": null,
+      "no-descending-specificity":  null,
+      "selector-class-pattern": null
+    },
+    "ignoreFiles": [
+      "dist/*"
+    ]
+  } 

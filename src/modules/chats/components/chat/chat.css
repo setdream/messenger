@@ -1,0 +1,101 @@
+.chat {
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+
+    &__content {
+        flex-grow: 1;
+        margin: 0 16px;
+        overflow: hidden;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        align-items: flex-end;
+    }
+}
+
+.avatar {
+    border-radius: 8px;
+
+    &--medium {
+        height: 64px;
+        width: 64px;
+    }
+}
+
+.chat-title {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--main-text-color);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.chat-short-message {
+    margin: 0;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    &--unread {
+        font-weight: 600;
+        color: var(--main-text-color);
+    }
+
+    &--read {
+        font-weight: 500;
+        color: var(--main-text-gray-color);
+    }
+}
+
+.chat-time {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--main-text-color);
+    margin-bottom: 8px;
+}
+
+.chat-unread-message-count {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    background: var(--primay-color);
+    border-radius: 16px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    align-items: center;
+    justify-content: center;
+    color: var(--main-text-light-color);
+}
+
+.chat-avatar-replacer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 64px;
+    width: 64px;
+
+    border-radius: 8px;
+    background: var(--primary-color);
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}

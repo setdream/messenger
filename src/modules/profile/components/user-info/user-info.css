@@ -1,0 +1,36 @@
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__avatar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 200px;
+        border: 4px solid var(--main-bg-color);
+        border-radius: 8px;
+        background: var(--primary-color);
+    }
+
+    &__fields {
+        margin-top: 24px;
+        text-align: center;
+    }
+}
+
+.icon-add-photo {
+    background-image: url('./assets/icons/add-photo-icon.svg');
+    background-size: 64px 64px;
+    width: 64px;
+    height: 64px;
+    display: flex;
+}
+
+.image-avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}

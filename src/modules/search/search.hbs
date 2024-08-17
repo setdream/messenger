@@ -1,0 +1,11 @@
+<section class="search-result">
+    {{#if isLoading}}
+        {{{loading}}}
+    {{else}}
+        <div data-role-users-list>
+            {{#each users}}
+                {{{ this }}}
+            {{/each}}
+        </div>
+    {{/if}}
+</section>

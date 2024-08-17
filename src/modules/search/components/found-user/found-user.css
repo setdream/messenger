@@ -1,0 +1,59 @@
+.found-user {
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+
+    &__content {
+        flex-grow: 1;
+        margin: 0 16px;
+        overflow: hidden;
+    }
+}
+
+.avatar {
+    border-radius: 8px;
+
+    &--medium {
+        height: 64px;
+        width: 64px;
+    }
+}
+
+.found-user-title {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: var(--main-text-color);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.found-user-short-message {
+    margin: 0;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 500;
+    color: var(--main-text-gray-color);
+}
+
+.found-user-avatar-replacer {
+    height: 64px;
+    width: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--primary-color);
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}

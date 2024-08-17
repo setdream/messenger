@@ -1,0 +1,52 @@
+.menu-wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.menu-background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0 0 0 50%);
+    z-index: 10;
+}
+
+.menu {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: white;
+    margin: 0;
+    padding: 16px;
+    border-radius: 16px 16px 0 0;
+    z-index: 20;
+
+    &__header {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.menu-marker {
+    background: var(--primary-color);
+    width: 48px;
+    height: 4px;
+    border-radius: 4px;
+}
+
+.menu-list {
+    margin: 16px;
+    margin-bottom: 8px;
+    padding: 0;
+
+    &__item {
+        padding-top: 4px;
+        list-style: none;
+    }
+}

@@ -1,0 +1,23 @@
+<header class="app-header">
+    <nav class="app-header-navigation">
+        <ul class="navigation-list">
+            <li class="navigation-list-item">
+                {{#if avatar}}
+                    <img data-role-avatar class="avatar avatar--small" src="{{avatar}}" alt="Avatar">
+                {{else}}
+                    <div data-role-avatar class="header-avatar-replacer header-avatar-replacer--dark">
+                        <i class="icon-profile icon-profile--dark"></i>
+                    </div>
+                {{/if}}
+            </li>
+            <li class="navigation-list-item">
+                <h1 class="app-header-title app-header-title--dark">{{title}}</h1>
+            </li>
+            <li class="navigation-list-item">
+                <div class="icon-container" data-role-search-button>
+                    <i class="icon-header-search"></i>
+                </div>
+            </li>
+        </ul>
+    </nav>
+</header>
